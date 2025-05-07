@@ -48,7 +48,7 @@ function AchievementSection() {
           <span className="mt-4 border-b border-yellow-400 py-2 text-xl font-semibold text-yellow-400 tracking-wide">
             10<sup>th</sup> RANK SECURED
           </span>
-          <p className="m-4 p-2 italic text-justify">
+          <p className="m-4 p-2 italic md:text-justify text-center">
           Achieved a prestigious 10th rank in the West Bengal Voclet 2019 Examination, demonstrating academic excellence and competitive aptitude. This accomplishment highlights deep conceptual clarity, disciplined preparation, and high performance under pressure. It reflects a strong foundation in core subjects and a commitment to consistent academic growth.
           </p>
         </motion.div>
