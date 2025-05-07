@@ -26,7 +26,7 @@ function Project() {
         initial="hidden"
         whileInView="visible"
         variants={containerVariants}
-        viewport={{ once: false, amount: 0.3 }}
+        viewport={{ once: true }}
         className="mt-20 text-center text-4xl font-semibold"
       >
         Projects
@@ -35,7 +35,7 @@ function Project() {
         initial="hidden"
         whileInView="visible"
         variants={containerVariants}
-        viewport={{ once: false, amount: 0.3 }}
+        viewport={{ once: true }}
         className="flex flex-wrap justify-center py-8"
       >
         {PROJECTS.map((project, idx) => (
